@@ -346,6 +346,6 @@
         <junit-version>5.8.2</junit-version>
         <http-signature-version>1.7</http-signature-version>
         <scribejava-apis-version>8.3.1</scribejava-apis-version>
-        <spotless.version>2.21.0</spotless.version>
+        <spotless.version>2.37.0</spotless.version>
     </properties>
 </project>
