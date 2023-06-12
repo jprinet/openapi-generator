@@ -67,7 +67,7 @@
       <groupId>io.swagger</groupId>
       <artifactId>swagger-annotations</artifactId>
       <scope>provided</scope>
-      <version>1.5.3</version>
+      <version>1.6.11</version>
     </dependency>
     <!-- @Nullable annotation -->
     <dependency>
