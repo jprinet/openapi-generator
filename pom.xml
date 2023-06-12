@@ -736,7 +736,7 @@
                 </property>
             </activation>
             <modules>
-                <module>samples/client/petstore/scala-httpclient</module>
+                <module>samples/client/petstore/scala-sttp</module>
             </modules>
         </profile>
         <profile>
