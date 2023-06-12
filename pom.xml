@@ -1488,7 +1488,7 @@
         <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <maven-site-plugin.version>4.0.0-M8</maven-site-plugin.version>
         <maven-surefire-plugin.version>3.0.0</maven-surefire-plugin.version>
-        <mockito.version>4.10.0</mockito.version>
+        <mockito.version>5.3.1</mockito.version>
         <openrewrite.version>7.39.1</openrewrite.version>
         <pmd-plugin.version>3.12.0</pmd-plugin.version>
         <reflections.version>0.10.2</reflections.version>
