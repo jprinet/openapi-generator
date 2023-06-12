@@ -676,7 +676,7 @@
                 </property>
             </activation>
             <modules>
-                <module>samples/client/petstore/java/retrofit2x</module>
+                <module>samples/client/petstore/java/retrofit2</module>
             </modules>
         </profile>
         <profile>
@@ -688,7 +688,7 @@
                 </property>
             </activation>
             <modules>
-                <module>samples/client/petstore/java/retrofit2rx</module>
+                <module>samples/client/petstore/java/retrofit2rx2</module>
             </modules>
         </profile>
         <profile>
