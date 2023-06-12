@@ -18,7 +18,7 @@
     <scala.version>2.12.13</scala.version>
     <json4s.jackson.version>3.6.7</json4s.jackson.version>
     <json4s.ext.version>3.6.7</json4s.ext.version>
-    <akka.version>2.6.12</akka.version>
+    <akka.version>2.8.2</akka.version>
     <akka.http.version>10.2.3</akka.http.version>
     <typesafeconfig.version>1.4.1</typesafeconfig.version>
     <akka.http.json4s.version>1.27.0</akka.http.json4s.version>
