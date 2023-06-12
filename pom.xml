@@ -772,7 +772,7 @@
                 </property>
             </activation>
             <modules>
-                <module>samples/client/petstore/java-helidon-client-mp</module>
+                <module>samples/client/petstore/java-helidon-client/mp</module>
             </modules>
         </profile>
         <profile>
@@ -784,7 +784,7 @@
                 </property>
             </activation>
             <modules>
-                <module>samples/server/petstore/java-helidon-server-mp</module>
+                <module>samples/server/petstore/java-helidon-server/mp</module>
             </modules>
         </profile>
         <profile>
