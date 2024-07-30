@@ -9,6 +9,7 @@ on:
     branches:
       - master
       - '[5-9]+.[0-9]+.x'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -36,7 +37,7 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
       - name: Run maven
-        run: ./mvnw clean --no-snapshot-updates --batch-mode --quiet install -DskipTests -Dorg.slf4j.simpleLogger.defaultLogLevel=error
+        run: ./mvnw clean -X --no-snapshot-updates --batch-mode install -DskipTests
         env:
           GRADLE_ENTERPRISE_ACCESS_KEY: ${{ secrets.GRADLE_ENTERPRISE_ACCESS_KEY }}
       - run: ls -la  modules/openapi-generator-cli/target
